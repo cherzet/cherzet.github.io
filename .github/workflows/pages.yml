@@ -31,3 +31,9 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./_site
+
+    - name: Install Jupyter
+    run: |
+      sudo apt-get update
+      sudo apt-get install -y python3-pip
+      pip3 install jupyter
