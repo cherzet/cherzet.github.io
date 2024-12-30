@@ -5,8 +5,6 @@ _site/
 .jekyll-metadata
 
 # Configuration et dépendances
-Gemfile
-Gemfile.lock
 node_modules/
 package.json
 package-lock.json
